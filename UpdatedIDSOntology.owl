@@ -1,0 +1,2274 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pande/ontologies/2022/3/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pande/ontologies/2022/3/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/pande/ontologies/2022/3/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ACKFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ASP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccessControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActDataPktFwd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apache2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ares"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttackerOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuditingAndLogging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authentication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authorization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AveragePacketSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvgBwdSegmentSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvgFwdSegmentSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BackwardHeaderFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BackwardIATFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Botnet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BruteForceAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buffer_Overflow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdAvgBulkRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdHeaderLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdIATMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdIATMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdIATMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdIATStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdIATTotal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPSHFlags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPacketLengthMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPacketLengthMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPacketLengthMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPacketLengthStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdURGFlags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONNECT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CWEFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfigurationManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrossSiteScripting-XSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DDoSAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DDoSSIM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DELETE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DVWA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestinationPort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoSAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ECEFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmailProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmissionSecurity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EncryptionCryptography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExceptionManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FINFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlagFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowIATFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowIATMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowIATMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowIATMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowIATStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortinet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForwardHeaderFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForwardIATFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ftp_write"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdAvgBulkRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdHeaderLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdHeaderLength.1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdIATMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdIATMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdIATStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdIATTotal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPSHFlags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPacketLengthMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPacketLengthMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPacketLengthMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPacketLengthStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdURGFlags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoldenEye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guess_Password"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HEAD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HOIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTTPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HashCat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HashPump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeaderFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeartBleedAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heartleech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoneyPot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HttpRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HttpResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Httptunnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hulk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanError"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IATFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICMPEcho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdleFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdleMax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdleMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdleMin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdleStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfiltrationAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InitWinBytesBackward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InitWinBytesforward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ipsweep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KaliLinux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KeyManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LOIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadModule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoginSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaxPacketLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medusa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoryProtection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MessageDigestChecksum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metasploit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinPacketLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinSegSizeForward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multihop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ncrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neptune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NmapScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPTION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#POST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PSHFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PUT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PacketFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PacketLengthMean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PacketLengthStd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PacketLengthVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PortProbe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portscan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Probe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessTable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R2L"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSTFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequestTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rootkit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SAINT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLInjection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SSH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SYNFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanitizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Script"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityNetworkCommunication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SegmentFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sendmail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeverityLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slowhttptest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slowloris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smurf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snmpgetattack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snmpguess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourceCodeAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubFlowFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubflowBwdBytes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubflowBwdPackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubflowFwdBytes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubflowFwdPackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TRACE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teardrop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnologyMistakenlyUsedAsCounterMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telnet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolsForAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalBackwardPacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalFwdPackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalLengthOfBwdPackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalLengthOfFwdPackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrafficFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrustManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeOfAttacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#U2R"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UDP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URGFlagCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubuntu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubuntu16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Udpstorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VictimFirewall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VictimOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VulnerabilityScanner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warezclient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warezmaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeaknessInOWASPTopTen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeaknessIntroducedDuringDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeaknessIntroductionDuringImplementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windigo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window1032Bit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows1064Bit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows8.1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xsnoop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xterm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdAvgBytes/Bulk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdAvgPackets/Bulk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BwdPackets/s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Down/UpRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowBytes/s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowPackets/s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdAvgBytes/Bulk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdAvgPackets/Bulk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FwdPackets/s"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttackTypes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeatures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRequestTypes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSeverityLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTarget"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTools"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVulnerability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProtectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#runsOnProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesTechnology"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ACKFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ASP"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccessControl"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActDataPktFwd"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveMax"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveMean"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveMin"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveStd"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apache2"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ares"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuditingAndLogging"/>
+        <Class IRI="#HumanError"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authentication"/>
+        <Class IRI="#HumanError"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authorization"/>
+        <Class IRI="#HumanError"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AveragePacketSize"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvgBwdSegmentSize"/>
+        <Class IRI="#SegmentFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvgFwdSegmentSize"/>
+        <Class IRI="#SegmentFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Back"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backup"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BackwardHeaderFeatures"/>
+        <Class IRI="#HeaderFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BackwardIATFeatures"/>
+        <Class IRI="#IATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BackwardPacketFeatures"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Botnet"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BruteForceAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buffer_Overflow"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdAvgBulkRate"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdHeaderLength"/>
+        <Class IRI="#BackwardHeaderFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdIATMax"/>
+        <Class IRI="#BackwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdIATMean"/>
+        <Class IRI="#BackwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdIATMin"/>
+        <Class IRI="#BackwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdIATStd"/>
+        <Class IRI="#BackwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdIATTotal"/>
+        <Class IRI="#BackwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPSHFlags"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPacketLengthMax"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPacketLengthMean"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPacketLengthMin"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPacketLengthStd"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdURGFlags"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONNECT"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CWEFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfigurationManagement"/>
+        <Class IRI="#HumanError"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical"/>
+        <Class IRI="#SeverityLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrossSiteScripting-XSS"/>
+        <Class IRI="#WebAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DDoSAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DDoSSIM"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DELETE"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DVWA"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestinationPort"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoSAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ECEFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmailProtocol"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmissionSecurity"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EncryptionCryptography"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExceptionManagement"/>
+        <Class IRI="#HumanError"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FINFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FTP"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlagFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowDuration"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowIATFeatures"/>
+        <Class IRI="#IATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowIATMax"/>
+        <Class IRI="#FlowIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowIATMean"/>
+        <Class IRI="#FlowIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowIATMin"/>
+        <Class IRI="#FlowIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowIATStd"/>
+        <Class IRI="#FlowIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortinet"/>
+        <Class IRI="#VictimFirewall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForwardHeaderFeatures"/>
+        <Class IRI="#HeaderFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForwardIATFeatures"/>
+        <Class IRI="#IATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForwardPacketFeatures"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ftp_write"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdAvgBulkRate"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdHeaderLength"/>
+        <Class IRI="#ForwardHeaderFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdHeaderLength.1"/>
+        <Class IRI="#ForwardHeaderFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdIATMean"/>
+        <Class IRI="#ForwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdIATMin"/>
+        <Class IRI="#ForwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdIATStd"/>
+        <Class IRI="#ForwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdIATTotal"/>
+        <Class IRI="#ForwardIATFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPSHFlags"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPacketLengthMax"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPacketLengthMean"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPacketLengthMin"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPacketLengthStd"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdURGFlags"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GET"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoldenEye"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grum"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guess_Password"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEAD"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HOIC"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTTP"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTTPS"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HashCat"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HashPump"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeaderFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeartBleedAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heartleech"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoneyPot"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HttpRequest"/>
+        <Class IRI="#HTTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HttpResponse"/>
+        <Class IRI="#HTTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Httptunnel"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hulk"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanError"/>
+        <Class IRI="#Vulnerability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydra"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IATFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICMPEcho"/>
+        <Class IRI="#Ipsweep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdleFeatures"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdleMax"/>
+        <Class IRI="#IdleFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdleMean"/>
+        <Class IRI="#IdleFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdleMin"/>
+        <Class IRI="#IdleFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdleStd"/>
+        <Class IRI="#IdleFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imap"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfiltrationAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InitWinBytesBackward"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InitWinBytesforward"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ipsweep"/>
+        <Class IRI="#Probe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaliLinux"/>
+        <Class IRI="#AttackerOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KeyManagement"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LOIC"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadModule"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logic"/>
+        <Class IRI="#Vulnerability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoginSystem"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low"/>
+        <Class IRI="#SeverityLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaC"/>
+        <Class IRI="#VictimOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaxPacketLength"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medusa"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryProtection"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MessageDigestChecksum"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metasploit"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinPacketLength"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinSegSizeForward"/>
+        <Class IRI="#SegmentFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#SeverityLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monitoring"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multihop"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ncrack"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neptune"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NmapScript"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPTION"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHP"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#POST"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PSHFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PUT"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PacketFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PacketLengthMean"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PacketLengthStd"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PacketLengthVariance"/>
+        <Class IRI="#PacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patator"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perl"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phf"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical"/>
+        <Class IRI="#Vulnerability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pod"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PortProbe"/>
+        <Class IRI="#Probe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portscan"/>
+        <Class IRI="#Probe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portscan"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Probe"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessTable"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ps"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R2L"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSTFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rootkit"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SAINT"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMTP"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQL"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLAttack"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLInjection"/>
+        <Class IRI="#WebAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SSH"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYNFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanitizer"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satan"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Script"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityHardware"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityNetworkCommunication"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SegmentFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sendmail"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slowhttptest"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slowloris"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smurf"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snmpgetattack"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snmpguess"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourceCodeAnalysis"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spy"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storm"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubFlowFeatures"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubflowBwdBytes"/>
+        <Class IRI="#SubFlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubflowBwdPackets"/>
+        <Class IRI="#SubFlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubflowFwdBytes"/>
+        <Class IRI="#SubFlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubflowFwdPackets"/>
+        <Class IRI="#SubFlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCP"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TRACE"/>
+        <Class IRI="#RequestTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teardrop"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical"/>
+        <Class IRI="#Vulnerability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnologyMistakenlyUsedAsCounterMeasure"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telnet"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalBackwardPacket"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalFwdPackets"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalLengthOfBwdPackets"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalLengthOfFwdPackets"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrustManagement"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#U2R"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UDP"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URGFlagCount"/>
+        <Class IRI="#FlagFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubuntu"/>
+        <Class IRI="#VictimOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubuntu16"/>
+        <Class IRI="#Ubuntu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Udpstorm"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vista"/>
+        <Class IRI="#Windows"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VulnerabilityScanner"/>
+        <Class IRI="#Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warezclient"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warezmaster"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeaknessInOWASPTopTen"/>
+        <Class IRI="#Technical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeaknessIntroducedDuringDesign"/>
+        <Class IRI="#Technical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeaknessIntroductionDuringImplementation"/>
+        <Class IRI="#Logic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WebAttack"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windigo"/>
+        <Class IRI="#ToolsForAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window1032Bit"/>
+        <Class IRI="#Windows"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows"/>
+        <Class IRI="#VictimOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows1064Bit"/>
+        <Class IRI="#Windows"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows7"/>
+        <Class IRI="#Windows"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows8.1"/>
+        <Class IRI="#AttackerOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows8.1"/>
+        <Class IRI="#Windows"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worm"/>
+        <Class IRI="#DoSAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xlock"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xsnoop"/>
+        <Class IRI="#R2L"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xterm"/>
+        <Class IRI="#U2R"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdAvgBytes/Bulk"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdAvgPackets/Bulk"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BwdPackets/s"/>
+        <Class IRI="#BackwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Down/UpRatio"/>
+        <Class IRI="#TrafficFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowBytes/s"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowPackets/s"/>
+        <Class IRI="#FlowFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdAvgBytes/Bulk"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdAvgPackets/Bulk"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FwdPackets/s"/>
+        <Class IRI="#ForwardPacketFeatures"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttackTypes"/>
+        <Class IRI="#AttackerOS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFeatures"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRequestTypes"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSeverityLevel"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#AttackerOS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTools"/>
+        <Class IRI="#AttackerOS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVulnerability"/>
+        <Class IRI="#VictimFirewall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVulnerability"/>
+        <Class IRI="#VictimOS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#VictimOS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#runsOnProtocol"/>
+        <Class IRI="#ToolsForAttack"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesTechnology"/>
+        <Class IRI="#ToolsForAttack"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttackTypes"/>
+        <Class IRI="#TypeOfAttacks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeatures"/>
+        <Class IRI="#TrafficFeatures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRequestTypes"/>
+        <Class IRI="#RequestTypes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSeverityLevel"/>
+        <Class IRI="#SeverityLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#VictimOS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTools"/>
+        <Class IRI="#ToolsForAttack"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVulnerability"/>
+        <Class IRI="#Vulnerability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#Defense"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#runsOnProtocol"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesTechnology"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACKFlagCount</IRI>
+        <Literal>Number of packets with ACK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACKFlagCount</IRI>
+        <Literal>The Three-Way Handshake
+TCP utilizes a number of flags, or 1-bit boolean fields, in its header to control the state of a connection. The three we&apos;re most interested in here are:
+
+SYN - (Synchronize) Initiates a connection
+FIN - (Final) Cleanly terminates a connection
+ACK - Acknowledges received data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActDataPktFwd</IRI>
+        <Literal>Count of packets with at least 1 byte of TCP data payload in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveMax</IRI>
+        <Literal>Maximum time a flow was active before becoming idle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveMean</IRI>
+        <Literal>Mean time a flow was active before becoming idle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveMin</IRI>
+        <Literal>Minimum time a flow was active before becoming idle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveStd</IRI>
+        <Literal>Standard deviation time a flow was active before becoming idle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AveragePacketSize</IRI>
+        <Literal>Average size of packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvgBwdSegmentSize</IRI>
+        <Literal>Average size observed in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvgFwdSegmentSize</IRI>
+        <Literal>Average size observed in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdAvgBulkRate</IRI>
+        <Literal>Average number of bulk rate in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdHeaderLength</IRI>
+        <Literal>Total bytes used for headers in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdIATMax</IRI>
+        <Literal>Maximum time between two packets sent in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdIATMean</IRI>
+        <Literal>Mean time between two packets sent in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdIATMin</IRI>
+        <Literal>Minimum time between two packets sent in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdIATStd</IRI>
+        <Literal>Standard deviation time between two packets sent in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdIATTotal</IRI>
+        <Literal>Total time between two packets sent in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPSHFlags</IRI>
+        <Literal>Number of times the PSH flag was set in packets travelling in the backward direction (0 for UDP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPSHFlags</IRI>
+        <Literal>PSH and ACK are tcp flags in the TCP protocol. These TCP flags are ways for TCP to communicate between clients and servers.
+
+PSH (push) flag indicates that the incoming data should be passed on directly to the application instead of getting buffered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPacketLengthMax</IRI>
+        <Literal>Maximum size of packet in backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPacketLengthMean</IRI>
+        <Literal>Mean size of packet in backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPacketLengthMin</IRI>
+        <Literal>Minimum size of packet in backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPacketLengthStd</IRI>
+        <Literal>Standard deviation size of packet in backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdURGFlags</IRI>
+        <Literal>Number of times the URG flag was set in packets travelling in the backward direction (0 for UDP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdURGFlags</IRI>
+        <Literal>The URG flag is used to inform the receiving system that the data contained in a certain segment of the payload is urgent and should be prioritised over other packets.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ECEFlagCount</IRI>
+        <Literal>ECE - This flag is responsible for indicating if the TCP peer is ECN capable.
+ECE : Explicit Congestion Notification [ECN]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ECEFlagCount</IRI>
+        <Literal>Number of packets with ECE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FINFlagCount</IRI>
+        <Literal>Number of packets with FIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FINFlagCount</IRI>
+        <Literal>The Three-Way Handshake
+TCP utilizes a number of flags, or 1-bit boolean fields, in its header to control the state of a connection. The three we&apos;re most interested in here are:
+
+SYN - (Synchronize) Initiates a connection
+FIN - (Final) Cleanly terminates a connection
+ACK - Acknowledges received data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowDuration</IRI>
+        <Literal>Duration of the flow in Microsecond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowFeatures</IRI>
+        <Literal>A flow can be thought of as a conversation between two hosts combined with metadata of that conversation.
+
+Host A and host B exchange a file. As Host A sends the file to host B, we notice that packets from host A have a source TCP port of 443 and a destination port of 43222, and the reciprocal is ports from all traffic from host B to A: source port f 43222, destination port 443. We notice that a total of 4,000 packets were transmitted between host A and B and a total of 5 MB were exchanged--all of this is information we would find in a flow record about that conversation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowFeatures</IRI>
+        <Literal>“flow” is a unidirectional set of packets sharing common attributes (e.g. source and destination IP, source and destination ports, IP protocol, etc.). Using a “flow protocol” (e.g. sFlow, IPFIX, NetFlow v9 or v5), network devices (routers, switches, hosts) are equipped to gather information about these attributes for a user-configured sample of the traffic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowIATMax</IRI>
+        <Literal>Maximum time between two packets sent in the flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowIATMean</IRI>
+        <Literal>Mean time between two packets sent in the flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowIATMin</IRI>
+        <Literal>Minimum time between two packets sent in the flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowIATStd</IRI>
+        <Literal>Standard deviation time between two packets sent in the flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdAvgBulkRate</IRI>
+        <Literal>Average number of bulk rate in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdHeaderLength</IRI>
+        <Literal>Total bytes used for headers in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdIATMean</IRI>
+        <Literal>Mean time between two packets sent in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdIATMin</IRI>
+        <Literal>Minimum time between two packets sent in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdIATStd</IRI>
+        <Literal>Standard deviation time between two packets sent in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdIATTotal</IRI>
+        <Literal>Total time between two packets sent in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPSHFlags</IRI>
+        <Literal>Number of times the PSH flag was set in packets travelling in the forward direction (0 for UDP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPSHFlags</IRI>
+        <Literal>PSH and ACK are tcp flags in the TCP protocol. These TCP flags are ways for TCP to communicate between clients and servers.
+
+PSH (push) flag indicates that the incoming data should be passed on directly to the application instead of getting buffered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPacketLengthMax</IRI>
+        <Literal>Maximum size of packet in forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPacketLengthMean</IRI>
+        <Literal>Mean size of packet in forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPacketLengthMin</IRI>
+        <Literal>Minimum size of packet in forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPacketLengthStd</IRI>
+        <Literal>Standard deviation size of packet in forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdURGFlags</IRI>
+        <Literal>Number of times the URG flag was set in packets travelling in the forward direction (0 for UDP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdURGFlags</IRI>
+        <Literal>The URG flag is used to inform the receiving system that the data contained in a certain segment of the payload is urgent and should be prioritised over other packets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IATFeatures</IRI>
+        <Literal>Interarrival Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IATFeatures</IRI>
+        <Literal>The inter arrival time is the time between each arrival into the system and the next.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdleMax</IRI>
+        <Literal>Maximum time a flow was idle before becoming active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdleMean</IRI>
+        <Literal>Mean time a flow was idle before becoming active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdleMin</IRI>
+        <Literal>Minimum time a flow was idle before becoming active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdleStd</IRI>
+        <Literal>Standard deviation time a flow was idle before becoming active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InitWinBytesBackward</IRI>
+        <Literal>The total number of bytes sent in initial window in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InitWinBytesforward</IRI>
+        <Literal>The total number of bytes sent in initial window in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaxPacketLength</IRI>
+        <Literal>Maximum length of a packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MinPacketLength</IRI>
+        <Literal>Minimum length of a packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MinSegSizeForward</IRI>
+        <Literal>Minimum segment size observed in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PSHFlagCount</IRI>
+        <Literal>Number of packets with PUSH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PSHFlagCount</IRI>
+        <Literal>PSH and ACK are tcp flags in the TCP protocol. These TCP flags are ways for TCP to communicate between clients and servers.
+
+PSH (push) flag indicates that the incoming data should be passed on directly to the application instead of getting buffered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PacketLengthMean</IRI>
+        <Literal>Mean length of a packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PacketLengthStd</IRI>
+        <Literal>Standard deviation length of a packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PacketLengthVariance</IRI>
+        <Literal>Variance length of a packet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RSTFlagCount</IRI>
+        <Literal>Number of packets with RST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RSTFlagCount</IRI>
+        <Literal>RST - The reset flag gets sent from the receiver to the sender when a packet is sent to a particular host that was not expecting it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYNFlagCount</IRI>
+        <Literal>Number of packets with SYN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYNFlagCount</IRI>
+        <Literal>The Three-Way Handshake
+TCP utilizes a number of flags, or 1-bit boolean fields, in its header to control the state of a connection. The three we&apos;re most interested in here are:
+
+SYN - (Synchronize) Initiates a connection
+FIN - (Final) Cleanly terminates a connection
+ACK - Acknowledges received data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SegmentFeatures</IRI>
+        <Literal>Segment : length of the payload, not any attached headers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubflowBwdBytes</IRI>
+        <Literal>The average number of bytes in a sub flow in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubflowBwdPackets</IRI>
+        <Literal>The average number of packets in a sub flow in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubflowFwdBytes</IRI>
+        <Literal>The average number of bytes in a sub flow in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubflowFwdPackets</IRI>
+        <Literal>The average number of packets in a sub flow in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalBackwardPacket</IRI>
+        <Literal>Total packets in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalFwdPackets</IRI>
+        <Literal>Total packets in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalLengthOfBwdPackets</IRI>
+        <Literal>Total size of packet in backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalLengthOfFwdPackets</IRI>
+        <Literal>Total size of packet in forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TrafficFeatures</IRI>
+        <Literal>Used to determine the type of attack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TrafficFeatures</IRI>
+        <Literal>https://github.com/ahlashkari/CICFlowMeter/blob/master/ReadMe.txt
+
+https://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#URGFlagCount</IRI>
+        <Literal>Number of packets with URG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#URGFlagCount</IRI>
+        <Literal>URG - The urgent flag is used to notify the receiver to process the urgent packets before processing all other packets. The receiver will be notified when all known urgent data has been received. See RFC 6093 for more details.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdAvgBytes/Bulk</IRI>
+        <Literal>Average number of bytes bulk rate in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdAvgPackets/Bulk</IRI>
+        <Literal>Average number of packets bulk rate in the backward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BwdPackets/s</IRI>
+        <Literal>Number of backward packets per second</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Down/UpRatio</IRI>
+        <Literal>Download and upload ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowBytes/s</IRI>
+        <Literal>Number of flow bytes per second</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlowPackets/s</IRI>
+        <Literal>Number of flow packets per second</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdAvgBytes/Bulk</IRI>
+        <Literal>Average number of bytes bulk rate in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdAvgPackets/Bulk</IRI>
+        <Literal>Average number of packets bulk rate in the forward direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FwdPackets/s</IRI>
+        <Literal>Number of forward packets per second</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
